@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concluído</title>
+    <style>
+        div#area{
+          background: #de68e0;
+          color: #ffffff;
+          width: 200px;
+          height: 200px;
+          text-align: center;
+          border-radius: 80%;
+          line-height: 200px;
+          box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+          
+        }
+        body{
+            animation: is-bouncing 1s ease-in-out alternate infinite;
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+        }
+
+        @keyframes is-bouncing{
+            to{
+                transform: translateY(70px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="area">
+        Obrigado pelo seu cadastro!
+    </div>
+</body>
+</html>
